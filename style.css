@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+
+}
+
+
+
+body {
+    background-color: #BFBFBF;
+    color: white;
+
+
+}
+
+header {
+    display: flex;
+    padding: 16px 0;
+    background-color: #10403B;
+    color: white;
+}
+
+.container {
+    display: inline;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Container parametros*/
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#containers {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.container1, .container2, .container3 {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column; /* Empilha o título e o bloco de imagem/texto verticalmente */
+    background-color: #10403B;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.container1 h2 {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.picture-and-text {
+    display: flex;
+    align-items: center; /* Alinha imagem e parágrafo verticalmente no centro */
+}
+
+.picture-and-text picture {
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.picture-and-text p {
+    max-width: 300px;
+    margin: 0;
+    color: white;
+}
+
+picture img {
+    width: 250px;
+    border: solid;
+}
