@@ -60,17 +60,16 @@ header .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #CCF2C2;
 }
 
-.container1, .container2, .container3 {
-    margin-top: 8px;
+.container1, .container2,.container3{
+    margin: 8px;
     display: flex;
     flex-direction: column; /* Empilha o título e o bloco de imagem/texto verticalmente */
     background-color: #10403B;
-    width: 100%;
     margin-bottom: 5px;
-    padding: 10px;
+    width: 100%;
 }
 
 .container1 h2 {
@@ -96,4 +95,7 @@ header .container {
 picture img {
     width: 250px;
     border: solid;
+}
+.container1 .picture-and-text{
+    flex-direction: row-reverse;
 }
