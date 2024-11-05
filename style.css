@@ -64,11 +64,9 @@ header .container {
 }
 
 .container1, .container2,.container3{
-    margin: 8px;
     display: flex;
     flex-direction: column; /* Empilha o título e o bloco de imagem/texto verticalmente */
     background-color: #10403B;
-    margin-bottom: 5px;
     width: 100%;
 }
 
@@ -87,7 +85,7 @@ header .container {
 }
 
 .picture-and-text p {
-    max-width: 300px;
+    width: 200px;
     margin: 0;
     color: white;
 }
@@ -96,6 +94,9 @@ picture img {
     width: 250px;
     border: solid;
 }
-.container1 .picture-and-text{
-    flex-direction: row-reverse;
+
+.container3{
+    padding: 18px;
+    margin-left: 18px;
+    margin-bottom: 0;
 }
