@@ -76,12 +76,12 @@ header{
     font-weight: 800;
 }
 
-h3:hover {
+span h3:hover {
     color: transparent;
     transition: 0.6s;
 }
 
-h3:hover::after {
+span h3:hover::after {
     content: "Samuray_Dev";
     position: absolute;
     color: black;
@@ -153,7 +153,25 @@ main{
 }
 
 
+.perfil{
+    display: flex;
+    width: 100%;
+    color: #1f2937;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
 
+.formacoes{
+    
+        display: flex;
+        width: 100%;
+        color: #1f2937;
+        background-color: blanchedalmond;
+        justify-content: center;
+        align-items: center;
+
+}
 
 .container-main #sobre{
     display: flex;
@@ -164,19 +182,96 @@ main{
     margin-top: 18px;
 }
 
+.container-main #automacao{
+    display: flex;
+    background-color: aliceblue;
+    width: 1000px;
+    height: auto;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
 .container-main * img{
     width: 200px;
     height: auto;
 }
-.text p{
-    font-size: x-small;
-    flex-wrap: wrap;
+
+.title-image-automacao{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.text{
-    margin: 0 10px;
+#automacao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.titulo h2{
+    text-align: center;
+}
+
+#automacao .title-image-automacao picture{
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.title-image-automacao picture img{
+    width: 200px;
+}
+
+.antes h3{
+    text-align: center;
+}
+.depois h3{
+    text-align: center;
+}
+.text p,
+.text-automacao p{
+    text-align: left;
+    font-size: small;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}
+.text-automacao{
+    margin: 25px 10px;
+    justify-content: start;
     display: flex;
     align-items: center;
+    flex-direction: column;
+
+}
+
+.antes{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    gap: 5px;
+    margin: 0 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text ul{
+    width: 250px;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    
+}
+
+.text li img{
+    width: 70px;
 }
 
 .title-image{
